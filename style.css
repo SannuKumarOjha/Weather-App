@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 360px;
+    background: linear-gradient(135deg , #00feba , #5b548a);
+    color: #fff;
+    padding: 20px;
+}
+.searchBox{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.searchBox input{
+    width: 100%;
+    height: 100%;
+    padding: 4px 7px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+.searchBox .searchBtn{
+    color: #000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+    padding: 4px 7px;
+    cursor: pointer;
+}
+
+.weather{
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 50px;
+}
+.weather img{
+    width: 120px;
+}
+.weather .degree{
+    font-size: 55px;
+}
+
+.wind-temp{
+    width: 100%;
+    height: 100px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wind-temp img{
+    width: 40px;
+    margin-right: 10px;
+}
+.wind-temp .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
